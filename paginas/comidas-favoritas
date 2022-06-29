@@ -3,14 +3,14 @@
 <body>
 <table>
   <tr>
-    <th>Nombre de la banda</th>
-    <th>Cantante</th>
-    <th>Genero</th>
+    <th>Comida</th>
+    <th>Origen</th>
+    <th>Foto</th>
   </tr>
   <tr>
-    <td>Solista</td>
-    <td>Duki</td>
-    <td>Trap y Regueton</td>
+    <td>Hamburguesa</td>
+    <td>Alemania o EEUU</td>
+    <td><img src="../FOTOS/Hamburguesa.jpg" style="width:100px;height:100px;"></td>
   </tr>
   <tr>
     <td>Solista</td>
