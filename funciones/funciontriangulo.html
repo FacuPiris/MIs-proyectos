@@ -31,16 +31,16 @@
             p = perimetro(a,b,c);
             z = area(a, b);
 
-            document.write ( "La hipotenusa es: ",c ); document.write ("<br/>");
-            document.write ( "El perimetro es: ",p); document.write ("<br/>");
-            document.write ( "El area es: ",z ); document.write ("<br/>"); 
-            document.write('<p><a href="../index.html">VOLVER AL INDEX</a></p>');
+            document.write ( "La hipotenusa: ",c ); document.write ("<br/>");
+            document.write ( "El perimetro: ",p); document.write ("<br/>");
+            document.write ( "El are: ",z ); document.write ("<br/>"); 
+            document.write('<p><a href="../index.html">Volver al menu.</a></p>');
             
         }
 
         function perdirDatos(){
-            a = Number(prompt("Ingresar primer lado <{:v"))
-            b= Number(prompt("Ingresame el segundo mostro :p"))
+            a = Number(prompt("Ingrese el primer lado"))
+            b= Number(prompt("Ingresame el segundo"))
 
             resultado()
         }
@@ -49,11 +49,11 @@
         </script>
     </head>
     <body>
-       <h1> <center style="color:red";> <p>Dale click mostro al botón para ver las funciones d:v</h1> </center>
+       <h1>  <p>Presione el botón para ver las funciones</h1> 
         <form>
-        <center> <input type="button" onclick="perdirDatos()" value="Call Function"> </center>
+         <input type="button" onclick="perdirDatos()" value="Call Function"> 
         </form>
-  <p><a href="../index.html">VOLVER AL INDEX</a></p>
+  <p><a href="../index.html">Volver al menu.</a></p>
 
 
     </body>
